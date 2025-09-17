@@ -509,6 +509,45 @@ body .open-sans{
         margin-top: 20rem;
         z-index: 9999;
     }
+
+    .pro1 {
+    flex-direction: column; /* Stack ke bawah */
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .pro1 img {
+    width: 90%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .box {
+    font-size: 5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .box p {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  .pro1-desc {
+    font-size: 1.3rem;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .pro1-desc button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .slider {
+    width: 100%;
+    height: auto;
 }
 
 /* Key F */
