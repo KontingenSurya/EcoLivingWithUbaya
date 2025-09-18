@@ -135,6 +135,11 @@ body .open-sans{
     background-image: url(../skin/IMG_20250827_213302.jpg);
 }
 
+.hero-desc{
+    position: relative;
+    z-index: 10:
+}
+
 .hero::after{
     content: '';
     display: block;
@@ -142,7 +147,8 @@ body .open-sans{
     width: 100%;
     height: 100%;
     background: linear-gradient( 0deg, rgb(4, 128, 31) 1%,
-    rgba(17,108,45, 0.1) 25%)
+    rgba(17,108,45, 0.1) 25%);
+    z-index: 9;
 }
 
 .hero-desc h1{
