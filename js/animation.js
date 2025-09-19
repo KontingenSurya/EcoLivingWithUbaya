@@ -1,4 +1,4 @@
-const imgs = document.querySelectorAll(".pro3-desc img, .pro1-desc img");
+const imgs = document.querySelectorAll(".pro3-desc img, .pro1-desc img, .pro2-desc img, .pro4-desc img");
 
 if(imgs){
 const observerImg = new IntersectionObserver((entries) => {
