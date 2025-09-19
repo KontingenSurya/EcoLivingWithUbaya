@@ -49,6 +49,7 @@ body{
     transition: transform 1s ease-out, opacity 1s ease-out;
 }
 
+
 .pro1-desc img.animation{
     transform: translateX(0);
     opacity: 1;
@@ -72,6 +73,14 @@ body{
     margin-bottom: 2rem;
     border-radius: 1rem;
     margin-left: 3rem;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.pro2-desc img.animation{
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .pro2-desc{
@@ -114,6 +123,39 @@ body{
 }
 
 .pro3-desc p{
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+/* Program 4 */
+.pro4-head{
+    margin-top: 4rem;
+}
+
+.pro4-desc img{
+    width: 800px;
+    object-fit: cover;
+    height: 300px;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    margin-left: 3rem;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.pro4-desc img.animation{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.pro4-desc{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.pro4-desc p{
     margin-left: 3rem;
     margin-right: 1.5rem;
     font-size: 1.5rem;
