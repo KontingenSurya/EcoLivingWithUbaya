@@ -66,7 +66,7 @@ body{
 
 }
 
-.pro2-descs img{
+.pro2-desc img{
     width: 800px;
     object-fit: cover;
     height: 300px;
@@ -78,17 +78,17 @@ body{
     transition: transform 1s ease-out, opacity 1s ease-out;*/
 }
 
-.pro2-descs img.animation{
+.pro2-desc img.animation{
     transform: translateX(0);
     opacity: 1;
 }
 
-.pro2-descs{
+.pro2-desc{
     display: flex;
     margin-top: 2rem;
 }
 
-.pro2-descs p{
+.pro2-desc p{
     margin-left: 3rem;
     margin-right: 1.5rem;
     font-size: 1.5rem;
@@ -134,7 +134,7 @@ body{
     margin-top: 4rem;
 }
 
-.pro4-descs img{
+.pro4-desc img{
     width: 800px;
     object-fit: cover;
     height: 300px;
@@ -146,17 +146,17 @@ body{
     transition: transform 1s ease-out, opacity 1s ease-out;*/
 }
 
-.pro4-descs img.animation{
+.pro4-desc img.animation{
     transform: translateX(0);
     opacity: 1;
 }
 
-.pro4-descs{
+.pro4-desc{
     display: flex;
     margin-top: 2rem;
 }
 
-.pro4-descs p{
+.pro4-desc p{
     margin-left: 3rem;
     margin-right: 1.5rem;
     font-size: 1.5rem;
