@@ -95,6 +95,10 @@ body{
     font-size: 1.5rem;
 }
 
+.mar2{
+    margin-left: 3rem;
+}
+
 /* Program 3 */
 .pro3-head{
     margin-top: 4rem;
@@ -161,6 +165,10 @@ body{
     margin-left: 3rem;
     margin-right: 1.5rem;
     font-size: 1.5rem;
+}
+
+.mar4{
+    margin-left: 3rem;
 }
 
 /*@keyframes slideLTR{
