@@ -135,11 +135,6 @@ body .open-sans{
     background-image: url(../skin/IMG_20250827_213302.jpg);
 }
 
-.hero-desc{
-    position: relative;
-    z-index: 10:
-}
-
 .hero::after{
     content: '';
     display: block;
@@ -147,8 +142,7 @@ body .open-sans{
     width: 100%;
     height: 100%;
     background: linear-gradient( 0deg, rgb(4, 128, 31) 1%,
-    rgba(17,108,45, 0.1) 25%);
-    z-index: 9;
+    rgba(17,108,45, 0.1) 25%)
 }
 
 .hero-desc h1{
@@ -239,7 +233,7 @@ body .open-sans{
 .pro3 p{
     margin-left: 3rem;
     font-size: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .box3{
@@ -253,15 +247,103 @@ body .open-sans{
     margin-left: 1rem;
 }
 
+.pro3-desc button{
+    background-color: var(--ecoStyle);
+    font-size: 20px;
+    color: var(--ecoFont);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.pro3-desc{
+    margin-left: 3rem;
+}
+
+/* Program 4 */
+.pro4 img{
+    width: 500px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+.box4{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.pro4{
+    display: flex;
+}
+
+.pro4-desc button{
+    background-color: var(--ecoStyle);
+    font-size: 20px;
+    color: var(--ecoFont);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.pro4-desc{
+    font-size: 1.5rem;
+    margin-top: 9rem;
+    margin-left: -18rem;
+}
+
+
 .box p{
     font-size: 2rem;
     margin-left: 1rem;
     margin-bottom: -2rem;
 }
 
-.pro2{
-    margin-top: 3rem;
+/* Program 2 */
+.pro2 img{
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
 }
+
+.pro2{
+    display: flex;
+}
+
+.box2{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.pro2-desc button{
+    background-color: var(--ecoStyle);
+    font-size: 20px;
+    color: var(--ecoFont);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: none;
+    box-shadow: none;
+}
+
+.pro2-desc{
+    font-size: 1.5rem;
+    margin-top:11rem;
+    margin-left: -21.7rem;
+}
+
 
 /* Slider */
 .slider{
@@ -506,6 +588,7 @@ body .open-sans{
         font-size: 50%;
     }
 
+    /* Nav Mrspv */
     .nav-ham{
         display: inline-block;
         margin-left: 10rem;
@@ -516,7 +599,7 @@ body .open-sans{
         z-index: 9999;
     }
 
-     /* Hero Mrspv */
+    /* Hero Mrspv */
     .program{
         margin-top: 0rem;
     }
@@ -624,9 +707,8 @@ body .open-sans{
     .media p {
         font-size: 1.4rem;
     }
-
-  
 }
+
 
 /* Key F */
 @keyframes slideLTR{
